@@ -79,3 +79,80 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
 
+---
+
+## Additional Recommended Personas (new)
+
+Below are proposed additions to clarify responsibilities, improve handoffs, and close gaps identified in the process docs.
+
+### Delivery Lead
+- Responsibilities:
+  - Coordinate day-to-day delivery across teams and sprints.
+  - Track cross-team dependencies and unblock work.
+  - Ensure sprint commitments are realistic and adjusted for risk.
+- Interactions:
+  - Works closely with Project Manager (scheduling, risk), Developers (capacity, blockers), and QA (acceptance readiness).
+  - Escalates issues to PM or Product Lead when needed.
+
+### Engineering Manager
+- Responsibilities:
+  - Provide technical leadership and coaching.
+  - Plan team capacity and prioritize engineering work (including debt).
+  - Own people-development and performance concerns related to delivery.
+- Interactions:
+  - Collaborates with Product Manager on trade-offs and technical feasibility.
+  - Coordinates with Developers on implementation approach and estimates.
+
+### UX Researcher / Designer
+- Responsibilities:
+  - Conduct user research and synthesize findings into requirements.
+  - Produce user flows, mockups, and accessible designs.
+  - Validate acceptance criteria from a user perspective.
+- Interactions:
+  - Partners with Product Manager on user outcomes and success metrics.
+  - Works with Developers to ensure designs are implemented as intended.
+
+### QA Lead / Test Owner
+- Responsibilities:
+  - Define the test strategy and own test plans and automation coverage.
+  - Coordinate manual QA and exploratory testing for acceptance.
+  - Track test coverage and release readiness criteria.
+- Interactions:
+  - Works with Developers to create testable acceptance criteria.
+  - Coordinates with Release Manager and PM for pre-release sign-off.
+
+### Release Manager
+- Responsibilities:
+  - Coordinate releases across services and teams.
+  - Maintain the release checklist and rollback/mitigation plans.
+  - Own post-deploy verification and release communications.
+- Interactions:
+  - Coordinates with PM, Delivery Lead, Engineering Manager, and Support/On-call teams.
+
+### Security & Compliance Owner
+- Responsibilities:
+  - Ensure security requirements and compliance controls are captured and tracked.
+  - Lead security reviews and risk mitigations for releases.
+  - Coordinate with Security/Compliance teams on audits and findings.
+- Interactions:
+  - Engages with Developers, Engineering Manager, and PM during planning and before releases.
+
+### Observability / SRE Owner
+- Responsibilities:
+  - Define monitoring and alerting requirements; maintain runbooks.
+  - Own on-call readiness and production health for the project.
+  - Coordinate performance and reliability improvements.
+- Interactions:
+  - Works with Developers and Release Manager to ensure production readiness and incident response plans.
+
+### Stakeholder Representative (Business Owner)
+- Responsibilities:
+  - Serve as a named contact for prioritization and business decisions.
+  - Accept feature outcomes and provide timely direction on scope changes.
+- Interactions:
+  - Works with PM and Product Manager; participates in milestone reviews and acceptance gating.
+
+Notes:
+- Each new role includes a short "Responsibilities" and "Interactions" subsection to show how they coordinate with existing roles.
+- Keep descriptions concise (1–3 bullets) and use consistent formatting.
+- Where relevant, link to related artifacts (release checklist, risk register, runbooks).
